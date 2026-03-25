@@ -6,6 +6,6 @@ app.get('/', (req, res) => {
   res.send('Hello, Welcome to my Github Learning Project!');
 });
 
-app.listen(PORT, () => {
+app.listen(PORT,  () => {
   console.log(`Server is running on http://localhost:${PORT}`);
 });
