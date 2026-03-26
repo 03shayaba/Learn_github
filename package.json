@@ -1,7 +1,7 @@
 {
-  "name": "learn_github",
+  "name": "github-learn",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "Server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -12,13 +12,13 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "type": "commonjs",
   "bugs": {
     "url": "https://github.com/03shayaba/Learn_github/issues"
   },
   "homepage": "https://github.com/03shayaba/Learn_github#readme",
   "description": "",
   "dependencies": {
-    "dotenv": "^17.3.1",
     "express": "^5.2.1",
     "mongoose": "^9.3.2"
   }
